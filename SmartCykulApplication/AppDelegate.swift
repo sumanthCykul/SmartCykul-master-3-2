@@ -31,9 +31,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate
 
     var window: UIWindow?
     let core = CLLocationManager()
-   // let trace = Performance.startTrace(name: "test trace")
-  //  let  token = Messaging.messaging().fcmTokenfcmToken
-  //  var token = FIRInstanceID.instanceID().token()
+//    let trace = Performance.startTrace(name: "test trace")
+//    let  token = Messaging.messaging().fcmTokenfcmToken
+//    var token = FIRInstanceID.instanceID().token()
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool
     {
