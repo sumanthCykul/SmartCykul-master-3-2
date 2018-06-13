@@ -42,7 +42,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate
         GMSServices.provideAPIKey("AIzaSyDXzZYfo_tE7odxY2eG2quc1BB8vrcnn-Q")
         let defauts = UserDefaults.standard
         let str = defauts.string(forKey: "customerIDDefaults")
-print("sumanht github code")
+         print("sumanht github code")
         if str == nil
         {
 
@@ -60,7 +60,7 @@ print("sumanht github code")
       
         FirebaseApp.configure()
         Fabric.with([Crashlytics.self])
-       
+       print("fabric framework")
         Fabric.sharedSDK().debug == true
         IQKeyboardManager.sharedManager().enable = true
         core.requestWhenInUseAuthorization()
